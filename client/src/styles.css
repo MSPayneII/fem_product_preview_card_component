@@ -13,7 +13,6 @@
   --darkCyan: hsl(158, 36%, 37%);
   --deepCyan: hsl(158, 42%, 18%);
   --cream: hsl(30, 38%, 92%);
-
   --darkBlue: hsl(212, 21%, 14%);
   --daryGrayishBlue: hsl(228, 12%, 48%);
   --white: hsl(0, 0%, 100%);
@@ -35,7 +34,6 @@
   --fwBold: 700;
 
   /* The Rest */
-  --maxWidth: 90rem; /*1440px*/
   --borderRadiusBtn: 0.5rem; /*8px*/
   --borderRadiusComponent: 0.625rem; /*10px*/
   --transition: 0.3s ease-in-out all;
@@ -48,27 +46,7 @@ body {
   padding: 1.75rem 1.0625rem;
 }
 
-.display,
-.body {
-  max-width: 18.44rem;
-}
-.display {
-  font-family: var(--typeFraunces);
-  line-height: 2rem;
-  font-weight: var(--fwBold);
-  font-size: var(--fsDisplay);
-  color: var(--darkBlue);
-  margin-bottom: 1.6875rem;
-}
-
-.body {
-  font-family: var(--typeMontserrat);
-  line-height: 1.4375rem;
-  font-weight: var(--fwMedium);
-  font-size: var(--fsBody);
-  color: var(--daryGrayishBlue);
-  margin-bottom: 1.5rem;
-}
+/* preview card component */
 .card {
   display: flex;
   flex-direction: column;
@@ -101,6 +79,32 @@ body {
   color: var(--daryGrayishBlue);
   border-radius: var(--borderRadiusBtn);
   margin-bottom: 1.25rem;
+}
+
+/* card header and body text */
+.display,
+.body {
+  max-width: 18.44rem;
+}
+
+/* card header */
+.display {
+  font-family: var(--typeFraunces);
+  line-height: 2rem;
+  font-weight: var(--fwBold);
+  font-size: var(--fsDisplay);
+  color: var(--darkBlue);
+  margin-bottom: 1.6875rem;
+}
+
+/* card body text */
+.body {
+  font-family: var(--typeMontserrat);
+  line-height: 1.4375rem;
+  font-weight: var(--fwMedium);
+  font-size: var(--fsBody);
+  color: var(--daryGrayishBlue);
+  margin-bottom: 1.5rem;
 }
 
 .price-container {
@@ -181,14 +185,16 @@ body {
     border-bottom-left-radius: var(--borderRadiusComponent);
   }
 
-  .display,
+  .overline {
+    margin-bottom: 1.68rem;
+  }
+
+  .display {
+    max-width: 13.37rem;
+  }
   .body {
     max-width: 14.47rem;
     margin-bottom: 2.1rem;
-  }
-
-  .overline {
-    margin-bottom: 1.68rem;
   }
 
   .price-container {
