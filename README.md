@@ -33,4 +33,4 @@ Your users should be able to:
 ## Author
 
 - Website - [Michael S. Payne Ii](https://www.michaelspayneii.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/MSPayneII)
+- Frontend Mentor - [@MSPayneII](https://www.frontendmentor.io/profile/MSPayneII)
