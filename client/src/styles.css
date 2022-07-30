@@ -179,7 +179,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-width: 18.75rem;
-    min-height: 490px;
+    min-height: 475px;
     border-top-left-radius: var(--borderRadiusComponent);
     border-top-right-radius: 0;
     border-bottom-left-radius: var(--borderRadiusComponent);
