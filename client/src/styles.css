@@ -1,0 +1,202 @@
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Colors */
+
+  --darkCyan: hsl(158, 36%, 37%);
+  --deepCyan: hsl(158, 42%, 18%);
+  --cream: hsl(30, 38%, 92%);
+
+  --darkBlue: hsl(212, 21%, 14%);
+  --daryGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Typography */
+
+  --typeMontserrat: "Montserrat", sans-serif;
+  --typeFraunces: "Fraunces", serif;
+
+  /* Fonts */
+
+  --fsDisplay: 2rem;
+  --fsBody: 0.875rem;
+  --fsOverline: 0.75rem;
+  --fsFullPrice: 0.8125rem;
+
+  /* Font Weights */
+  --fwMedium: 500;
+  --fwBold: 700;
+
+  /* The Rest */
+  --maxWidth: 90rem; /*1440px*/
+  --borderRadiusBtn: 0.5rem; /*8px*/
+  --borderRadiusComponent: 0.625rem; /*10px*/
+  --transition: 0.3s ease-in-out all;
+  --letterSpacing: 1px;
+}
+
+body {
+  background-color: var(--cream);
+  font-family: var(--typeMontserrat);
+  padding: 1.75rem 1.0625rem;
+}
+
+.display,
+.body {
+  max-width: 18.44rem;
+}
+.display {
+  font-family: var(--typeFraunces);
+  line-height: 2rem;
+  font-weight: var(--fwBold);
+  font-size: var(--fsDisplay);
+  color: var(--darkBlue);
+  margin-bottom: 1.6875rem;
+}
+
+.body {
+  font-family: var(--typeMontserrat);
+  line-height: 1.4375rem;
+  font-weight: var(--fwMedium);
+  font-size: var(--fsBody);
+  color: var(--daryGrayishBlue);
+  margin-bottom: 1.5rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: var(--borderRadiusComponent);
+  width: 21.44rem;
+  margin: 0 auto;
+}
+
+.card-info {
+  padding: 1.6875rem 1.5rem 1.5rem;
+}
+
+.card-img-container {
+  background-image: url("./images/image-product-mobile.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  height: 15rem;
+  border-top-left-radius: var(--borderRadiusComponent);
+  border-top-right-radius: var(--borderRadiusComponent);
+}
+
+.overline {
+  font-weight: var(--fwMedium);
+  font-size: var(--fsOverline);
+  text-transform: uppercase;
+  letter-spacing: 0.3125rem;
+  color: var(--daryGrayishBlue);
+  border-radius: var(--borderRadiusBtn);
+  margin-bottom: 1.25rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.375rem;
+}
+.new-price {
+  font-size: var(--fsDisplay);
+  font-family: var(--typeFraunces);
+  color: var(--darkCyan);
+  margin-right: 1.25rem;
+}
+.full-price {
+  font-size: var(--fsFullPrice);
+  line-height: 1.4375rem;
+  text-decoration: line-through;
+  color: var(--daryGrayishBlue);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  font-family: var(--typeMontserrat);
+  font-weight: var(--fwBold);
+  font-size: var(--fsBody);
+  background-color: var(--darkCyan);
+  border: none;
+  border-radius: var(--borderRadiusBtn);
+  color: var(--white);
+  width: 18.44rem;
+  height: 3;
+  padding: 1rem 5.7rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--deepCyan);
+}
+
+.cart-icon {
+  width: 0.9rem;
+  height: 1rem;
+  margin-right: 0.69rem;
+  color: var(--cream);
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 38.44rem) {
+  .card {
+    flex-direction: row;
+    width: 37.5rem;
+  }
+
+  .card-info {
+    padding: 2rem;
+  }
+
+  .card-img-container {
+    background-image: url("./images/image-product-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 18.75rem;
+    min-height: 490px;
+    border-top-left-radius: var(--borderRadiusComponent);
+    border-top-right-radius: 0;
+    border-bottom-left-radius: var(--borderRadiusComponent);
+  }
+
+  .display,
+  .body {
+    max-width: 14.47rem;
+    margin-bottom: 2.1rem;
+  }
+
+  .overline {
+    margin-bottom: 1.68rem;
+  }
+
+  .price-container {
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    width: 14.47rem;
+    padding: 1rem 3.8rem;
+  }
+}
