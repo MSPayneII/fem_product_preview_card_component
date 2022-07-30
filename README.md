@@ -6,9 +6,11 @@
 
 Thanks for checking out this front-end coding challenge solution using HTML and CSS.
 
+[![Netlify Status](?branch=https://api.netlify.com/api/v1/badges/681a7d50-2d0c-4c52-9bcd-4d26c35db8a7/deploy-status)](https://app.netlify.com/sites/cute-mochi-27ca3a/deploys)
+
 ## Links
 
-- [Live Site](https://www.netlify.com/)
+- [Live Site](https://cute-mochi-27ca3a.netlify.app/)
 
 ## The challenge
 
