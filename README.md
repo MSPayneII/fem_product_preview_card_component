@@ -1,12 +1,12 @@
 # Frontend Mentor - Product preview card component
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Product preview card component coding challenge](./client/src/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge solution using HTML and CSS.
 
-[![Netlify Status](?branch=https://api.netlify.com/api/v1/badges/681a7d50-2d0c-4c52-9bcd-4d26c35db8a7/deploy-status)](https://app.netlify.com/sites/cute-mochi-27ca3a/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/681a7d50-2d0c-4c52-9bcd-4d26c35db8a7/deploy-status)](https://app.netlify.com/sites/cute-mochi-27ca3a/deploys)
 
 ## Links
 
