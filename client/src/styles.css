@@ -167,7 +167,7 @@ body {
     background-image: url("./images/image-product-desktop.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 106%;
     min-width: 18.75rem;
     min-height: 475px;
     border-top-left-radius: var(--borderRadiusComponent);
