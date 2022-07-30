@@ -43,7 +43,6 @@
 body {
   background-color: var(--cream);
   font-family: var(--typeMontserrat);
-  padding: 1.75rem 1.0625rem;
 }
 
 /* preview card component */
@@ -53,7 +52,7 @@ body {
   background-color: var(--white);
   border-radius: var(--borderRadiusComponent);
   width: 21.44rem;
-  margin: 0 auto;
+  margin: 1.75rem auto;
 }
 
 .card-info {
@@ -153,20 +152,11 @@ body {
   color: var(--cream);
 }
 
-.attribution {
-  font-size: 0.6875rem;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 38.44rem) {
   .card {
     flex-direction: row;
     width: 37.5rem;
+    margin: 10.875rem auto;
   }
 
   .card-info {

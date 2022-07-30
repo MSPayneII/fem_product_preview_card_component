@@ -32,5 +32,5 @@ Your users should be able to:
 
 ## Author
 
-- Website - [Michael S. Payne Ii](https://www.michaelspayneii.com)
+- Website - [Michael S. Payne II](https://www.michaelspayneii.com)
 - Frontend Mentor - [@MSPayneII](https://www.frontendmentor.io/profile/MSPayneII)
